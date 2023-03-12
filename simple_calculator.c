@@ -20,7 +20,7 @@ int main()
 	scanf_s("%d", &choice);         //store that value in choice variable
 	printf("Enter the two numbers that you want to perform operation : \n");// ask user to enter two numbers
 	scanf_s("%f %f", &a, &b);      //store those two numbers
-	float(*functptr[x])(float, float) = { sum, subtraction, multiplication, division };
+	float(*functptr[x])(float, float) = { sum, subtraction, multiplication, division };// Here, funcptr is function pointer that takes 2 arguments as a float type. It points to functions and the addresses of the functions is stored here.
 
 
 
